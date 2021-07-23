@@ -1,9 +1,16 @@
 import React from "react";
+import { CssBaseline } from "@material-ui/core";
+import { Layout } from "./components/Layout";
 
-// TODO : Layout, Header, Card, Button, Options and Data fetching
+// TODO : Card, Button, Options and Data fetching
 
 function App() {
-  return <div>Trivia</div>;
+  return (
+    <>
+      <CssBaseline />
+      <Layout>This is where card is going to be</Layout>
+    </>
+  );
 }
 
 export default App;
